@@ -24,11 +24,6 @@ public class PersonController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public MessageResponseDTO createPerson(@RequestBody @Valid PersonDTO personDTO) {
-        Person personToSave = Person.builder()
-                .firstName(personDTO.getFirstName())
-                .lastName(personDTO.getLastName())
-                .birthDate(personDTO.getBirthDate())
-                .phones(personDTO.getPhones())
-                .build();
+        return personService.create(personDTO);
     }
 }
