@@ -7,7 +7,6 @@ Person REST API Project made for Bootcamp Capgemini Fullstack Java and Angular
 ##### ⚙️ Technologies & Tool
 
 - SpringBoot v2.5.3
-- Angular CLI: 12.1.4
 - H2 Database Engine: 1.4.200
 
 ##### :bookmark_tabs: Instructions
